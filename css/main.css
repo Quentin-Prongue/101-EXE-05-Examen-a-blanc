@@ -43,5 +43,18 @@ header {
 
 }
 
+header ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+header h1 {
+    display: none;
+}
+
+.logo {
+    text-align: center;
+}
+
 
 
