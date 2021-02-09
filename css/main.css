@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana,cursive;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 1.5;
+    color: #212121;
+    background-color: #FFFFFF;
+}
+
+h1 {
+    color: #388E3C
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #CDDC39;
+}
+
+
+
+/******************************
+Header
+ *****************************/
+
+header {
+    padding-top: 20px;
+    background-color: #4CAF50;
+    border-top: 20px #388E3C;
+
+}
+
+
+
