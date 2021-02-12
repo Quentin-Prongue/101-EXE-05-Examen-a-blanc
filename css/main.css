@@ -15,6 +15,10 @@ h1 {
     color: #388E3C
 }
 
+h2 {
+    color: #4CAF50;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -30,8 +34,6 @@ a:hover {
     color: #CDDC39;
 }
 
-
-
 /******************************
 Header
  *****************************/
@@ -43,18 +45,113 @@ header {
 
 }
 
+header nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
 header ul li {
-    list-style-type: none;
-    text-align: center;
+    list-style: none;
+    display: inline-block;
+}
+
+.menu-liens {
+    display: inline-block;
+    float: right;
+}
+
+header a, a:visited {
+    font-weight: 800;
+    padding: 10px;
+    margin: 5px auto;
+    color: #FFFFFF;
+}
+
+header a:hover, a:active {
+    color: #CDDC39;
+}
+
+.logo {
+    display: inline-block;
 }
 
 header h1 {
     display: none;
 }
 
-.logo {
+/******************************
+Main page accueil
+ *****************************/
+
+main {
+    padding: 20px;
+}
+
+.img-cabane figure {
+    background-color: #C8E6C9;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.img-cabane img {
+    width: max-content;
+}
+
+.img-cabane figcaption {
+    padding: 10px 0 5px;
     text-align: center;
+    font-size: 90%;
+    color: #FFFFFF;
+    font-style: italic;
+}
+main p {
+    display: inline-block;
+}
+
+main ul li {
+   list-style-image: url("../img/balle-golf.png");
+}
+
+main table, td, th {
+    border: 1px solid #C8E6C9;
+    border-collapse: collapse;
+}
+
+main td, th {
+    padding: 4px 6px;
+    text-align: left;
+}
+
+main table caption {
+    font-size: 80%;
+    padding-bottom: 5px;
+}
+
+main thead, tfoot {
+    background-color: #C8E6C9;
+}
+
+main table .cellule-prix {
+    text-align: right;
+}
+
+main .cellule-ligne {
+    display: block;
+    padding-block: 10px;
+    padding-top: 0;
+}
+
+main table tfoot td {
+    font-size: 80%;
+    text-align: right;
+    font-weight: normal;
+    display: block;
 }
 
 
 
+.img-cabane {
+    float: right;
+}
