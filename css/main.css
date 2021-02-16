@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+/******************************
+GENERAL
+ ******************************/
+
 body {
     font-family: Verdana,cursive;
     font-weight: 400;
@@ -35,31 +39,22 @@ a:hover {
 }
 
 /******************************
-Header
- *****************************/
+HEADER
+*****************************/
 
 header {
-    padding-top: 20px;
+    padding-top: 10px;
     background-color: #4CAF50;
     border-top: 20px #388E3C;
+    text-align: center;
 
 }
 
-header nav {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: right;
-}
 
 header ul li {
     list-style: none;
-    display: inline-block;
 }
 
-.menu-liens {
-    display: inline-block;
-    float: right;
-}
 
 header a, a:visited {
     font-weight: 800;
@@ -74,6 +69,7 @@ header a:hover, a:active {
 
 .logo {
     display: inline-block;
+    text-align: center;
 }
 
 header h1 {
@@ -81,11 +77,15 @@ header h1 {
 }
 
 /******************************
-Main page accueil
- *****************************/
+MAIN
+*****************************/
 
 main {
     padding: 20px;
+}
+
+main a {
+    color: #4CAF50;
 }
 
 .img-cabane {
@@ -139,6 +139,10 @@ main td, th {
     text-align: left;
 }
 
+table tfoot th {
+    font-weight: normal;
+}
+
 main table caption {
     font-size: 80%;
     padding-bottom: 5px;
@@ -170,7 +174,7 @@ main table tfoot td {
 
 
 /**************************
-Footer
+FOOTER
  **************************/
 
 footer {
